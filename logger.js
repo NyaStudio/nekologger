@@ -17,23 +17,23 @@ function time() {
 
 const logger = {
     info: function (msg, who) {
-        console.log(chalk.blue(`[${time()}] [${who}] ${msg}`))
+        console.log(chalk.blue(`[${time()}] [${who}] [INFO] ${msg}`))
     },
 
     ok: function (msg, who) {
-        console.log(chalk.green(`[${time()}] [${who}] ${msg}`))
+        console.log(chalk.green(`[${time()}] [${who}] [OK] ${msg}`))
     },
 
     warn: function (msg, who) {
-        console.log(chalk.yellow(`[${time()}] [${who}] ${msg}`))
+        console.log(chalk.yellow(`[${time()}] [${who}] [WARN] ${msg}`))
     },
 
     err: function (msg, who) {
-        console.log(chalk.red(`[${time()}] [${who}] ${msg}`))
+        console.log(chalk.red(`[${time()}] [${who}] [ERROR] ${msg}`))
     },
 
     ing: function (msg, who) {
-        console.log(chalk.cyan(`[${time()}] [${who}] ${msg}`))
+        console.log(chalk.cyan(`[${time()}] [${who}] [INFO] ${msg}`))
     }
 }
 
