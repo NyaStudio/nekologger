@@ -8,8 +8,8 @@
 // By BLxcwg666 <huixcwg@gmail.com>
 // Start at 2024/02/22 23:10 CST
 
-import chalk from "chalk";
-import moment from "moment-timezone";
+const chalk = require('chalk');
+const moment = require('moment-timezone');
 
 function time() {
     return moment().tz('Asia/Shanghai').format('YYYY-MM-DD HH:mm:ss');
