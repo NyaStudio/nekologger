@@ -1,6 +1,10 @@
 ## NekoLogger
 A Simple Node.JS Logger based on Chalk Module
 
+## 依赖
+chalk@4.1.0  
+反正不是 ESM 版本的就行
+
 ## 使用
 目前有以下五个类: `info`, `ok`, `warn`, `err`, `ing`  
 我定义的寓意是：信息，成功，警告，错误，进行中  
