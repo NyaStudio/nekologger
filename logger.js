@@ -26,6 +26,13 @@ if (!fs.existsSync(logPath) && process.env.LOG_ENABLE === 'true') {
 
 const logger = {
     enableWrite: process.env.LOG_ENABLE === 'true',
+    logStream: null,
+
+    initLogStream: function() {
+        if (this.enableWrite) {
+            this.logStream = fs.createWriteStream(path.join(logPath, `${moment().tz('Asia/Shanghai').format('YYYY-MM-DD HH-mm-ss')}.log`), { flags: 'a' });
+        }
+    },
 
     info: function (msg, who) {
         const log = `[${time()}] [${who}] [INFO] ${msg}`;
@@ -65,10 +72,9 @@ const logger = {
         if (this.enableWrite) {
             this.logStream.write('\n' + log);
         }
-    },
-
-    logStream: fs.createWriteStream(path.join(logPath, `${moment().tz('Asia/Shanghai').format('YYYY-MM-DD HH-mm-ss')}.log`), { flags: 'a' })
-
+    }
 };
+
+logger.initLogStream();
 
 module.exports = logger;
