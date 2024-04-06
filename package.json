@@ -1,6 +1,6 @@
 {
   "name": "nekologger",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A Simple Node.JS Logger based on chalk module",
   "main": "logger.js",
   "scripts": {
@@ -14,6 +14,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "chalk": "4.1.0",
+    "dotenv": "^16.4.5",
     "moment-timezone": "^0.5.45"
   }
 }
