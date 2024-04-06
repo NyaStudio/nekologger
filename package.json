@@ -5,7 +5,7 @@
   "main": "logger.js",
   "scripts": {
     "test": "node logger.js",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [
     "logger",

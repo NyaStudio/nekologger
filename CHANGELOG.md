@@ -1,4 +1,13 @@
-## 1.0.3 (2024-4-6)
+## [1.0.5](https://github.com/NyaStudio/nekologger/compare/v1.0.4...v1.0.5) (2024-4-6)
+
+
+### Bug Fixes
+
+* **ci:** release.yml ([3fc49c5](https://github.com/NyaStudio/nekologger/commit/3fc49c503ae28876aefa7b2c06d3b53fe1235930))
+
+
+
+## [1.0.4](https://github.com/NyaStudio/nekologger/compare/0d9f5a11ea21d3fe7df5c349608424dca49b64a2...v1.0.4) (2024-4-6)
 
 
 ### Bug Fixes
@@ -13,3 +22,6 @@
 ### Features
 
 * write log to file ([a3446e2](https://github.com/NyaStudio/nekologger/commit/a3446e20549da0586cae9773777e12d1fa04fab3))
+
+
+
