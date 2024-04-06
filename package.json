@@ -10,8 +10,8 @@
     "logger",
     "nekologger"
   ],
-  "author": "BLxcwg666",
-  "license": "LGPL-3.0-or-later",
+  "author": "NyaStudio",
+  "license": "GPL-3.0",
   "dependencies": {
     "chalk": "4.1.0",
     "moment-timezone": "^0.5.45"
