@@ -5,7 +5,7 @@
 //  |_| \_|\___|_|\_\___/  |_____\___/ \__, |\__, |\___|_|
 //                                     |___/ |___/
 // A Simple Node.JS Logger based on Chalk Module
-// Version 1.0.3 | https://github.com/NyaStudio/nekologger
+// Version 1.0.4 | https://github.com/NyaStudio/nekologger
 // By BLxcwg666 <huixcwg@gmail.com>
 // Start at 2024/02/22 23:10 CST
 
