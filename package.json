@@ -1,6 +1,6 @@
 {
   "name": "nekologger",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A Simple Node.JS Logger based on chalk module",
   "main": "logger.js",
   "scripts": {
